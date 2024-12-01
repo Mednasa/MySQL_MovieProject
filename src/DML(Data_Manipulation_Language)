@@ -1,0 +1,440 @@
+insert into Directors (director_id,movie_id,director_name,birth_year) values
+('1','1','Frank Darabont','1959'),
+('2','2','Francis Ford Coppola','1939'),
+('3','3','Christopher Nolan','1970'),
+('4','4','Francis Ford Coppola','1939'),
+('5','5','Sidney Lument','1924'),
+('6','6','Peter Jackson','1961'),
+('7','7','Steven Spielberg','1946'),
+('8','8','Quentin Tarantino','1963'),
+('9','9','Peter Jackson','1961'),
+('10','10','Sergio Leone','1929'),
+('11','11','Robert Zemeckis','1952'),
+('12','12','Peter Jackson','1961'),
+('13','13','David Fincher','1962'),
+('14','14','Christopher Nolan','1970'),
+('15','15','Irvin Kershner','1923'),
+('16','16','Lana Wachowski','1965'),
+('17','17','Martin Scorsese','1942'),
+('18','18','Milos Forman','1932'),
+('19','19','Christopher Nolan','1970'),
+('20','20','David Fincher','1962'),
+('21','21','Frank Capra','1902'),
+('22','22','Akira Kurosawa','1910'),
+('23','23','Jonathan Demme','1944'),
+('24','24','Steven Spielberg','1946'),
+('25','25','Fernando Meirelles','1955'),
+('26','26','Frank Darabont','1959'),
+('27','27','Roberto Benigni','1952'),
+('28','28','James Cameron','1954'),
+('29','29','George Lucas','1944'),
+('30','30','Robert Zemeckis','1952'),
+('31','31','Hayao Miyazaki','1941'),
+('32','32','Roman Polanski','1933'),
+('33','33','Bong Joon Ho','1969'),
+('34','34','Ridley Scott','1937'),
+('35','35','Alfred Hitchcock','1901'),
+('36','36','Rob Minkoff','1962'),
+('37','37','Martin Scorsese','1942'),
+('38','38','Joaquim Dos Santos','1977'),
+('39','39','Isao Takahata','1935'),
+('40','40','Damien Chazelle','1985'),
+('41','41','Tony Kaye','1952'),
+('42','42','Luc Besson','1959'),
+('43','43','Christopher Nolan','1970'),
+('44','44','Masaki Kobayashi','1916'),
+('45','45','Michael Curtiz','1905'),
+('46','46','Bryan Singer','1965'),
+('47','47','Olivier Nakache','1973'),
+('48','48','Giuseppe Tornatore','1956'),
+('49','49','Denis Villeneuve','1967'),
+('50','50','Charles Chaplin','1906'),
+('51','51','Ridley Scott','1937'),
+('52','52','Alfred Hitchcock','1905'),
+('53','53','Sergio Leone','1929'),
+('54','54','Quentin Tarantino','1963'),
+('55','55','Charles Chaplin','1903'),
+('56','56','Francis Ford Coppola','1939'),
+('57','57','Christopher Nolan','1970'),
+('58','58','Andrew Stanton','1965'),
+('59','59','Steven Spielberg','1946'),
+('60','60','Florian Henckel','1973'),
+('61','61','Vidhu Vinod Chopra','1952'),
+('62','62','Bily Wilder','1906'),
+('63','63','Anthony Russo','1970'),
+('64','64','Peter Ramsey','1962'),
+('65','65','Stanley Kubrick','1928'),
+('66','66','Bily Wilder','1906'),
+('67','67','Stanley Kubrick','1928'),
+('68','68','Charles Chaplin','1904'),
+('69','69','James Cameron','1954'),
+('70','70','Quentin Tarantino','1963'),
+('71','71','Christopher Nolan','1970'),
+('72','72','Lee Unkrich','1967'),
+('73','73','Milos Forman','1932'),
+('74','74','John Lasseter','1957'),
+('75','75','Stanley Kubrick','1928'),
+('76','76','Park Chan-wook','1963'),
+('77','77','Sam Mendes','1965'),
+('78','78','Anthony Russo','1970'),
+('79','79','Wolfgang Petersen','1941'),
+('80','80','Gus Van Sant','1952'),
+('81','81','Mel Gibson','1956'),
+('82','82','Hayao Miyazaki','1941'),
+('83','83','Makoto Shinkai','1973'),
+('84','84','Akira Kurosawa','1910'),
+('85','85','Todd Phillips','1970'),
+('86','86','Rajkumar Hirani','1962'),
+('87','87','Sergio Leone','1929'),
+('88','88','Stanley Donen','1924'),
+('89','89','Nadine Labaki','1974'),
+('90','90','Elem Klimov','1933'),
+('91','91','Darren Aronofsky','1969'),
+('92','92','Lee Unkrich','1967'),
+('93','93','Richard Marquand','1937'),
+('94','94','Thomas Vinterberg','1969'),
+('95','95','Michel Gondry','1963'),
+('96','96','Akira Kurosawa','1910'),
+('97','97','Stanley Kubrick','1928'),
+('98','98','Quentin Tarantino','1963'),
+('99','99','David Lean','1908'),
+('100','100','Bily Wilder','1906');
+
+update Directors set director_id ='1' where director_id=('26');
+update Directors set director_id ='2' where director_id in('4','56');
+update Directors set director_id ='3' where director_id in('14','19','43','57');
+update Directors set director_id ='6' where director_id in('9','12');
+update Directors set director_id ='7' where director_id in('24','59');
+update Directors set director_id ='8' where director_id in('54','70','98');
+update Directors set director_id ='10' where director_id in('53','87');
+update Directors set director_id ='11' where director_id='30';
+update Directors set director_id ='13' where director_id='20';
+update Directors set director_id ='17' where director_id='37';
+update Directors set director_id ='18' where director_id='73';
+update Directors set director_id ='22' where director_id in('84','96');
+update Directors set director_id ='28' where director_id='69';
+update Directors set director_id ='31' where director_id='82';
+update Directors set director_id ='34' where director_id='51';
+update Directors set director_id ='35' where director_id='52';
+update Directors set director_id ='50' where director_id in('55','68');
+update Directors set director_id ='62' where director_id in('66','100');
+update Directors set director_id ='63' where director_id='78';
+update Directors set director_id ='65' where director_id in('67','75','97');
+update Directors set director_id ='72' where director_id='92';
+
+
+update Directors set birth_year ='1901' where director_id=21;
+update Directors set birth_year ='1902' where director_id=35;
+update Directors set birth_year ='1903' where director_id=45;
+update Directors set birth_year ='1904' where director_id=50;
+update Directors set birth_year ='1904' where director_id=52;
+update Directors set birth_year ='1903' where director_id=55;
+update Directors set birth_year ='1902' where director_id=68;
+
+
+insert into Movies(movie_title,release_year,director_id,genre,imdb_rating ) values
+('The Shawshank Redemption','1994','1','Drama','9,3'),
+('The Godfather','1972','2','Crime','9,2'),
+('The Dark Knight','2008','3','Action','9'),
+('The Godfather Part II','1974','4','Crime','9'),
+('12 Angry Men','1957','5','Drama','9'),
+('The Lord of the Rings: The Return of the King','2003','6','Adventure','9'),
+('Schindlers List','1993','7','Drama,History','9'),
+('Pulp Fiction','1994','8','Crime,Drama','8,9'),
+('The Lord of the Rings: The Fellowship of the Ring','2001','9','Adventure','8,9'),
+('The Good, the Bad and the Ugly','1966','10','Western','8,8'),
+('Forrest Gump','1994','11','Drama','8,8'),
+('The Lord of the Rings: The Two Towers','2002','12','Adventure','8,8'),
+('Fight Club','1999','13','Drama','8,8'),
+('Inception','2010','14','Action,Adventure,Sci-Fi','8,8'),
+('Star Wars: Episode V - The Empire Strikes Back','1980','15','Action,Adventure,Fantasy','8,7'),
+('The Matrix','1999','16','Action,Sci-Fi','8,7'),
+('Goodfellas','1990','17','Crime,Drama,Biography','8,7'),
+('One Flew Over the Cuckoos Nest','1975','18','Drama','8,7'),
+('Interstellar','2014','19','Adventure,Drama,Sci-Fi','8,7'),
+('Seven','1995','20','Crime,Drama,Mystery','8,6'),
+('Its a Wonderful Life','1946','21','Drama','8,6'),
+('Seven Samurai','1954','22','Action,Drama','8,6'),
+('The Silence of the Lambs','1991','23','Crime,Thriller','8,6'),
+('Saving Private Ryan','1998','24','Drama','8,6'),
+('City of God','2002','25','Crime,Drama','8,6'),
+('The Green Mile','1999','26','Crime,Drama','8,6'),
+('Life Is Beautiful','1997','27','Drama','8,6'),
+('Terminator 2: Judgment Day','1991','28','Action,Sci-Fi','8,6'),
+('Star Wars: Episode IV - A New Hope','1977','29','Action,Adventure','8,6'),
+('Back to the Future','1985','30','Sci-Fi','8,5'),
+('Spirited Away','2001','31','Animation','8,6'),
+('The Pianist','2002','32','Drama,Biography','8,5'),
+('Parasite','2019','33','Drama,Thriller','8,5'),
+('Gladiator','2000','34','Action,Drama','8,5'),
+('Psycho','1960','35','Horror,Mystery,Thriller','8,5'),
+('The Lion King','1994','36','Animation','8,5'),
+('The Departed','2006','37','Crime,Drama,Thriller','8,5'),
+('Spider-Man: Across the Spider-Verse','2023','38','Animation','8,6'),
+('Grave of the Fireflies','1988','39','Animation,Dram','8,5'),
+('Whiplash','2014','40','Drama','8,5'),
+('American History X','1988','41','Crime,Drama','8,5'),
+('Léon: The Professional','1994','42','Action,Crime,Drama','8,5'),
+('The Prestige','2006','43','Mystery,Sci-Fi,Drama','8,5'),
+('Harakiri','1962','44','Mystery,Drama,Action','8,6'),
+('Casablanca','1942','45','Drama,Romance','8,5'),
+('The Usual Suspects','1995','46','Crime,Drama,Mystery','8,5'),
+('The Intouchables','2011','47','Comedy,Drama','8,5'),
+('Cinema Paradiso','1988','48','Drama,Romance','8,5'),
+('Dune: Part Two','2024','49','Action,Adventure','8,5'),
+('Modern Times','1936','50','Comedy,Drama,Romance','8,5'),
+('Alien','1979','51','Horror,Sci-Fi','8,5'),
+('Rear Window','1954','52','Mystery,Thriller','8,5'),
+('Once Upon a Time in the West','1968','53','Drama,Western','8,5'),
+('Django Unchained','2012','54','Drama,Western','8,5'),
+('City Lights','1931','55','Drama,Comedy,Romance','8,5'),
+('Apocalypse Now','1979','56','Drama,Mystery','8,4'),
+('Memento','2000','57','Mystery,Thriller','8,4'),
+('WALL·E','2008','58','Animation','8,4'),
+('Indiana Jones and the Raiders of the Lost Ark','1981','59','Action,Adventure','8,4'),
+('The Lives of Others','2006','60','Drama,Mystery,Thriller','8,4'),
+('12th Fail','2023','61','Biography,Drama','8,8'),
+('Sunset Boulevard','1950','62','Film-Noir,Drama','8,4'),
+('Avengers: Infinity War','2018','63','Action,Adventure,Sci-Fi','8,4'),
+('Spider-Man: Into the Spider-Verse','2018','64','Animation,Action','8,4'),
+('Paths of Glory','1957','65','Drama','8,4'),
+('Witness for the Prosecution','1957','66','Crime,Drama,Mystery','8,4'),
+('The Shining','1980','67','Drama,Horror','8,4'),
+('The Great Dictator','1940','68','Comedy,Drama','8,4'),
+('Aliens','1986','69','Action,Sci-Fi','8,4'),
+('Inglourious Basterds','2009','70','Adventure,Drama','8,4'),
+('The Dark Knight Rises','2012','71','Action,Drama,Thriller','8,4'),
+('Coco','2017','72','Animation,Drama','8,4'),
+('Amadeus','1984','73','Biography,Drama','8,4'),
+('Toy Story','1995','74','Animation,Adventure','8,3'),
+('Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb','1964','75','Comedy','8,3'),
+('Oldboy','2003','76','Action,Drama,Mystery','8,3'),
+('American Beauty','1999','77','Drama','8,3'),
+('Avengers: Endgame','2019','78','Action,Adventure,Sci-Fi','8,4'),
+('Das Boot','1981','79','Drama','8,4'),
+('Good Will Hunting','1997','80','Drama,Romance','8,3'),
+('Braveheart','1995','81','Biography,Drama','8,3'),
+('Princess Mononoke','1997','82','Animation,Action','8,3'),
+('Your Name.','2016','83','Animation,Drama','8,4'),
+('High and Low','1963','84','Crime,Drama,Mystery','8,4'),
+('Joker','2019','85','Crime,Drama,Thriller','8,4'),
+('3 Idiots','2009','86','Comedy,Drama','8,4'),
+('Once Upon a Time in America','1984','87','Crime,Drama','8,3'),
+('Singin in the Rain','1952','88','Comedy,Romance','8,3'),
+('Capernaum','2018','89','Drama','8,4'),
+('Come and See','1985','90','Drama,Thriller','8,3'),
+('Requiem for a Dream','2000','91','Drama','8,3'),
+('Toy Story 3','2010','92','Animation,Adventure','8,3'),
+('Star Wars: Episode VI - Return of the Jedi','1983','93','Action,Adventure','8,3'),
+('The Hunt','2012','94','Drama','8,3'),
+('Eternal Sunshine of the Spotless Mind','2004','95','Drama,Romance,Sci-Fi','8,3'),
+('Ikiru','1952','96','Drama','8,3'),
+('2001: A Space Odyssey','1968','97','Adenture,Sci-Fi','8,3'),
+('Reservoir Dogs','1992','98','Crime,Thriller','8,3'),
+('Lawrence of Arabia','1962','99','Biography,Drama','8,3'),
+('The Apartment','1960','100','Comedy,Drama,Romance','8,3');
+
+update Movies set director_id ='1' where director_id=('26');
+update Movies set director_id ='2' where director_id in('4','56');
+update Movies set director_id ='3' where director_id in('14','19','43','57');
+update Movies set director_id ='6' where director_id in('9','12');
+update Movies set director_id ='7' where director_id in('24','59');
+update Movies set director_id ='8' where director_id in('54','70','98');
+update Movies set director_id ='10' where director_id in('53','87');
+update Movies set director_id ='11' where director_id='30';
+update Movies set director_id ='13' where director_id='20';
+update Movies set director_id ='17' where director_id='37';
+update Movies set director_id ='18' where director_id='73';
+update Movies set director_id ='22' where director_id in('84','96');
+update Movies set director_id ='28' where director_id='69';
+update Movies set director_id ='31' where director_id='82';
+update Movies set director_id ='34' where director_id='51';
+update Movies set director_id ='35' where director_id='52';
+update Movies set director_id ='50' where director_id in('55','68');
+update Movies set director_id ='62' where director_id in('66','100');
+update Movies set director_id ='63' where director_id='78';
+update Movies set director_id ='65' where director_id in('67','75','97');
+update Movies set director_id ='72' where director_id='92';
+
+
+update Movies set imdb_rating ='9.2' where director_id=2 and movie_id=2;
+update Movies set imdb_rating ='9' where director_id=3 and movie_id=3;
+update Movies set imdb_rating ='9' where director_id=4 and movie_id=4;
+update Movies set imdb_rating ='9' where director_id=5 and movie_id=5;
+update Movies set imdb_rating ='9' where director_id=6 and movie_id=6;
+update Movies set imdb_rating ='9' where director_id=7 and movie_id=7;
+update Movies set imdb_rating ='8.9' where director_id=8 and movie_id=8;
+update Movies set imdb_rating ='8.9' where director_id=9 and movie_id=9;
+update Movies set imdb_rating ='8.8' where director_id=10 and movie_id=10;
+update Movies set imdb_rating ='8.8' where director_id=11 and movie_id=11;
+update Movies set imdb_rating ='8.8' where director_id=12 and movie_id=12;
+update Movies set imdb_rating ='8.8' where director_id=13 and movie_id=13;
+update Movies set imdb_rating ='8.8' where director_id=14 and movie_id=14;
+update Movies set imdb_rating ='8.7' where director_id=15 and movie_id=15;
+update Movies set imdb_rating ='8.7' where director_id=16 and movie_id=16;
+update Movies set imdb_rating ='8.7' where director_id=17 and movie_id=17;
+update Movies set imdb_rating ='8.7' where director_id=18 and movie_id=18;
+update Movies set imdb_rating ='8.7' where director_id=19 and movie_id=19;
+update Movies set imdb_rating ='8.6' where director_id=20 and movie_id=20;
+update Movies set imdb_rating ='8.6' where director_id=21 and movie_id=21;
+update Movies set imdb_rating ='8.6' where director_id=22 and movie_id=22;
+update Movies set imdb_rating ='8.6' where director_id=23 and movie_id=23;
+update Movies set imdb_rating ='8.6' where director_id=24 and movie_id=24;
+update Movies set imdb_rating ='8.6' where director_id=25 and movie_id=25;
+update Movies set imdb_rating ='8.6' where director_id=26 and movie_id=26;
+update Movies set imdb_rating ='8.6' where director_id=27 and movie_id=27;
+update Movies set imdb_rating ='8.6' where director_id=28 and movie_id=28;
+update Movies set imdb_rating ='8.6' where director_id=29 and movie_id=29;
+update Movies set imdb_rating ='8.5' where director_id=30 and movie_id=30;
+update Movies set imdb_rating ='8.6' where director_id=31 and movie_id=31;
+update Movies set imdb_rating ='8.5' where director_id=32 and movie_id=32;
+update Movies set imdb_rating ='8.5' where director_id=33 and movie_id=33;
+update Movies set imdb_rating ='8.5' where director_id=34 and movie_id=34;
+update Movies set imdb_rating ='8.5' where director_id=35 and movie_id=35;
+update Movies set imdb_rating ='8.5' where director_id=36 and movie_id=36;
+update Movies set imdb_rating ='8.5' where director_id=37 and movie_id=37;
+update Movies set imdb_rating ='8.6' where director_id=38 and movie_id=38;
+update Movies set imdb_rating ='8.5' where director_id=39 and movie_id=39;
+update Movies set imdb_rating ='8.5' where director_id=40 and movie_id=40;
+update Movies set imdb_rating ='8.5' where director_id=41 and movie_id=41;
+update Movies set imdb_rating ='8.5' where director_id=42 and movie_id=42;
+update Movies set imdb_rating ='8.5' where director_id=43 and movie_id=43;
+update Movies set imdb_rating ='8.6' where director_id=44 and movie_id=44;
+update Movies set imdb_rating ='8.5' where director_id=45 and movie_id=45;
+update Movies set imdb_rating ='8.5' where director_id=46 and movie_id=46;
+update Movies set imdb_rating ='8.5' where director_id=47 and movie_id=47;
+update Movies set imdb_rating ='8.5' where director_id=48 and movie_id=48;
+update Movies set imdb_rating ='8.5' where director_id=49 and movie_id=49;
+update Movies set imdb_rating ='8.5' where director_id=50 and movie_id=50;
+update Movies set imdb_rating ='8.5' where director_id=51 and movie_id=51;
+update Movies set imdb_rating ='8.5' where director_id=52 and movie_id=52;
+update Movies set imdb_rating ='8.5' where director_id=53 and movie_id=53;
+update Movies set imdb_rating ='8.5' where director_id=54 and movie_id=54;
+update Movies set imdb_rating ='8.5' where director_id=55 and movie_id=55;
+update Movies set imdb_rating ='8.4' where director_id=56 and movie_id=56;
+update Movies set imdb_rating ='8.4' where director_id=57 and movie_id=57;
+update Movies set imdb_rating ='8.4' where director_id=58 and movie_id=58;
+update Movies set imdb_rating ='8.4' where director_id=59 and movie_id=59;
+update Movies set imdb_rating ='8.4' where director_id=60 and movie_id=60;
+update Movies set imdb_rating ='8.8' where director_id=61 and movie_id=61;
+update Movies set imdb_rating ='8.4' where director_id=62 and movie_id=62;
+update Movies set imdb_rating ='8.4' where director_id=63 and movie_id=63;
+update Movies set imdb_rating ='8.4' where director_id=64 and movie_id=64;
+update Movies set imdb_rating ='8.4' where director_id=65 and movie_id=65;
+update Movies set imdb_rating ='8.4' where director_id=66 and movie_id=66;
+update Movies set imdb_rating ='8.4' where director_id=67 and movie_id=67;
+update Movies set imdb_rating ='8.4' where director_id=68 and movie_id=68;
+update Movies set imdb_rating ='8.4' where director_id=69 and movie_id=69;
+update Movies set imdb_rating ='8.4' where director_id=70 and movie_id=70;
+update Movies set imdb_rating ='8.4' where director_id=71 and movie_id=71;
+update Movies set imdb_rating ='8.4' where director_id=72 and movie_id=72;
+update Movies set imdb_rating ='8.4' where director_id=73 and movie_id=73;
+update Movies set imdb_rating ='8.3' where director_id=74 and movie_id=74;
+update Movies set imdb_rating ='8.3' where director_id=75 and movie_id=75;
+update Movies set imdb_rating ='8.3' where director_id=76 and movie_id=76;
+update Movies set imdb_rating ='8.3' where director_id=77 and movie_id=77;
+update Movies set imdb_rating ='8.4' where director_id=78 and movie_id=78;
+update Movies set imdb_rating ='8.4' where director_id=79 and movie_id=79;
+update Movies set imdb_rating ='8.3' where director_id=80 and movie_id=80;
+update Movies set imdb_rating ='8.3' where director_id=81 and movie_id=81;
+update Movies set imdb_rating ='8.3' where director_id=82 and movie_id=82;
+update Movies set imdb_rating ='8.4' where director_id=83 and movie_id=83;
+update Movies set imdb_rating ='8.4' where director_id=84 and movie_id=84;
+update Movies set imdb_rating ='8.4' where director_id=85 and movie_id=85;
+update Movies set imdb_rating ='8.4' where director_id=86 and movie_id=86;
+update Movies set imdb_rating ='8.3' where director_id=87 and movie_id=87;
+update Movies set imdb_rating ='8.3' where director_id=88 and movie_id=88;
+update Movies set imdb_rating ='8.4' where director_id=89 and movie_id=89;
+update Movies set imdb_rating ='8.3' where director_id=90 and movie_id=90;
+update Movies set imdb_rating ='8.3' where director_id=91 and movie_id=91;
+update Movies set imdb_rating ='8.3' where director_id=92 and movie_id=82;
+update Movies set imdb_rating ='8.3' where director_id=93 and movie_id=93;
+update Movies set imdb_rating ='8.3' where director_id=94 and movie_id=94;
+update Movies set imdb_rating ='8.3' where director_id=95 and movie_id=95;
+update Movies set imdb_rating ='8.3' where director_id=96 and movie_id=96;
+update Movies set imdb_rating ='8.3' where director_id=97 and movie_id=97;
+update Movies set imdb_rating ='8.3' where director_id=98 and movie_id=98;
+update Movies set imdb_rating ='8.3' where director_id=99 and movie_id=99;
+update Movies set imdb_rating ='8.3' where director_id=100 and movie_id=100;
+
+insert into Users (username,email,password) values
+('PixelPirate','pixelpirate007@yahoo.com','XyP!7lMkD2'),
+('MysticWolf','mysticwolf22@hotmail.com','Sun$et#84'),
+('TurboTiger','turbotiger55@outlook.com','N0va_2fXz8'),
+('NeonNinja','neon.ninja2024@gmail.com','QwErT!c9P1'),
+('QuantumQueen','quantumqueen83@yahoo.com','Bl@ckC@t7'),
+('ThunderBlade','thunderblade9@gmail.com','Tr33Frog#3'),
+('CosmicCrusader','cosmiccrusader17@hotmail.com','F1sh#St@r9'),
+('FrostFlame','frostflame44@gmail.com','Ice_K1ng05'),
+('CyberVortex','cyber.vortex98@outlook.com','L@vaDr@g0n'),
+('BlazeFalcon','blaze.falcon101@gmail.com','Sp!r1tF#9x'),
+('PhantomEcho','phantom.echo33@yahoo.com','W!ndSh@d0w'),
+('IronKnight','ironknight72@gmail.com','P@lm_Tr331'),
+('SolarSapphire','solarsapphire88@hotmail.com','Z#br@B!t38'),
+('MidnightComet','midnightcomet91@gmail.com','R0ck_C7oP5'),
+('CrimsonCobra','crimsoncobra007@gmail.com','F!ameHawk#'),
+('LunarLion','lunarlion99@yahoo.com','Star!L!ght7'),
+('GalacticGlider','galacticglider21@outlook.com','H!dd3nW0lf'),
+('VortexVoyager','vortex.voyager77@gmail.com','M!st_9Cloud'),
+('ArcticPhoenix','arcticphoenix56@gmail.com','Thunder@x5'),
+('TitanTrail','titantrail54@hotmail.com','L00n!S3al$'),
+('StellarSeeker','stellar.seeker03@yahoo.com','N3on#F!eld'),
+('RogueRaven','rogueraven2023@gmail.com','Jet$9W@ve1'),
+('MysticMarauder','mystic.marauder88@outlook.com','Fire2_Gr0w'),
+('AstroArrow','astroarrow42@gmail.com','Cr@wnX_88');
+
+
+insert into Comments (user_id,movie_id,comment_date,comment_content) values
+('1','1','2024-11-27 12:00:00','The movie was very good'),
+('1','3','2024-11-26 12:00:00','Perfect'),
+('1','5','2024-11-25 12:00:00','It was so enjoyable.'),
+('2','1','2024-10-27 12:00:00','The movie was very good'),
+('2','2','2024-11-27 14:30:00','It was a great watch.'),
+('3','3','2024-11-27 16:45:00','The film was excellent.'),
+('4','3','2024-11-27 18:00:00','Such a brilliant film.'),
+('5','3','2024-11-27 19:15:00','It was well-made.'),
+('6','5','2024-11-27 20:30:00','The movie was outstanding.'),
+('7','5','2024-11-28 09:00:00','It wasn’t as good as I expected.'),
+('8','8','2024-11-28 10:15:00','The movie was forgettable.'),
+('9','9','2024-11-28 11:30:00','The film was pretty underwhelming.'),
+('10','10','2023-11-28 13:00:00','I didn’t enjoy the movie much.'),
+('11','11','2023-11-28 14:00:00','The movie was okay, but nothing special.'),
+('12','12','2023-11-28 15:15:00','It was a bit boring.'),
+('13','13','2023-11-28 16:00:00','It could have been better.'),
+('14','14','2023-11-28 17:30:00','The movie didn’t live up to the hype.'),
+('15','27','2022-11-28 18:45:00','The film didn’t impress me much.'),
+('16','21','2022-11-28 20:00:00','The movie was really fun to watch.'),
+('17','17','2022-11-28 21:00:00','A truly fantastic film.'),
+('18','29','2021-11-29 09:30:00','It was a great experience.'),
+('19','39','2022-11-29 10:45:00','The movie was enjoyable from start to finish.'),
+('20','32','2021-11-27 11:00:00','A brilliant story with amazing visuals.'),
+('21','48','2024-11-20 12:00:00','The film had great potential, but it fell flat.'),
+('22','49','2024-11-01 13:00:00','The movie was a bit too slow for me.'),
+('23','50','2024-11-02 14:15:00','It didn’t really captivate my attention.'),
+('24','61','2024-11-03 15:30:00','I thought the story was weak, but the acting was solid.'),
+('25','62','2024-11-04 16:00:00','The movie was visually stunning, but lacked depth.'),
+('14','65','2024-11-05 17:00:00','A decent film, but it didn’t blow me away.'),
+('15','79','2024-11-06 18:30:00','It was a forgettable experience, unfortunately.'),
+('16','75','2024-11-07 19:00:00','The film had its moments, but wasn’t great overall.'),
+('17','80','2024-11-29 20:00:00','I was expecting more from the plot.'),
+('18','80','2024-11-29 21:30:00','The movie was good, but not amazing.'),
+('12','5','2024-11-29 17:00:00','It was a bit too long for my taste.'),
+('17','6','2024-11-29 18:30:00','I really enjoyed the plot twists.'),
+('3','7','2024-11-29 19:45:00','The movie was too predictable.'),
+('8','8','2024-11-29 20:30:00','The pacing was perfect, kept me engaged.'),
+('9','9','2024-11-29 21:00:00','It had some good moments but felt rushed.'),
+('16','10','2024-11-30 09:00:00','The film was full of action and thrills.'),
+('17','38','2024-10-30 10:15:00','The characters were very well-developed.'),
+('18','49','2024-09-30 11:00:00','The film was visually stunning but lacked depth.'),
+('19','44','2024-08-30 12:00:00','The acting was great but the story was weak.'),
+('20','41','2024-07-30 13:00:00','A decent watch, though not amazing.'),
+('21','45','2024-06-30 14:30:00','I loved the soundtrack! It added so much to the atmosphere.'),
+('4','36','2024-05-30 15:00:00','It was a heartfelt story, very emotional.'),
+('16','72','2024-04-30 16:15:00','I wish the movie explored the characters more.'),
+('3','87','2024-05-30 17:00:00','The action scenes were exciting, but the dialogue was lacking.'),
+('2','88','2024-06-30 18:30:00','It had a good concept, but it didn’t quite deliver.'),
+('19','89','2024-07-30 19:00:00','It was an enjoyable ride, but a little predictable.'),
+('17','100','2024-02-25 20:00:00','The cinematography was stunning, but the plot fell flat.'),
+('16','100','2024-03-30 21:00:00','The movie was a bit too slow for my liking, but the ending was great.'),
+('14','99','2024-04-30 22:00:00','I expected more from the story, but the visuals were top-notch.'),
+('13','99','2024-08-30 22:30:00','It was okay, but I feel like it missed something.');

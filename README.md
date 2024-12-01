@@ -3,7 +3,7 @@
 # Project Title: "Online Movie Archive System"
 
 ## Project Description:
-You are tasked with creating an "Online Movie Archive System" for a community of cinema enthusiasts. This system should allow users to store and manage information about movies and allow registered users to view and comment on the movies.
+It is a project to create an “Online Movie Archive System” database for a community of movie lovers. This system should enable the storage and management of information about movies and enable users to view information about movies.
 
 ## Requirements:
 The system should have the following features:

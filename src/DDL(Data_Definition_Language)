@@ -2,11 +2,11 @@ create database z_mednasa_movie;
 use z_mednasa_movie;
 
 CREATE TABLE Directors(
-	director_id INT ,                           -- Yönetmen ID,
-    movie_id INT,                               -- Movie ID,
-	director_name VARCHAR(255) NOT NULL,        -- Yönetmen Adı
-    birth_year YEAR,                            -- Doğum Yılı
-	PRIMARY KEY (director_id,movie_id)          -- Primary Key
+	director_id INT ,                              -- Director ID,
+    movie_id INT,                                  -- Movie ID,
+	director_name VARCHAR(255) NOT NULL,           -- Director Name
+    birth_year YEAR,                               -- Birth Year
+	PRIMARY KEY (director_id,movie_id)             -- Primary Key
 );
 
  Alter Table Directors Add column director_id INT;
@@ -16,30 +16,30 @@ CREATE TABLE Directors(
  Alter Table Directors MODIFY birth_year YEAR AFTER director_name;
 
  CREATE TABLE Movies (
-     movie_id INT  AUTO_INCREMENT,            -- Film ID, otomatik artış
-     movie_title VARCHAR(255) NOT NULL,       -- Film adı
-     release_year YEAR,                       -- Çıkış yılı
-     director_id INT,                         -- Yönetmen ID (Foreign Key)
-     genre VARCHAR(100),                      -- Tür
-     imdb_rating DECIMAL(3, 1),               -- IMDB puanı
-     PRIMARY KEY (movie_id)                   -- PRIMARY KEY
+     movie_id INT  AUTO_INCREMENT,               -- Movie ID, AUTO_INCREMENT
+     movie_title VARCHAR(255) NOT NULL,          -- Movie Name
+     release_year YEAR,                          -- Movie Release Year
+     director_id INT,                            -- Director ID (Foreign Key)
+     genre VARCHAR(100),                         -- Movie Genre
+     imdb_rating DECIMAL(3, 1),                  -- IMDB Rating
+     PRIMARY KEY (movie_id)                      -- PRIMARY KEY
  );
 
  CREATE TABLE Users(
- 	user_id INT AUTO_INCREMENT,              -- Kullanıcı ID, otomatik artış
-     username VARCHAR(50) NOT NULL UNIQUE,   -- Kullanıcı adı ,benzersiz
-     email VARCHAR(50) NOT NULL UNIQUE,      -- E-posta adresi, benzersiz
-     password VARCHAR(15) NOT NULL ,         -- Şifre
-     PRIMARY KEY (user_id)                   -- Primary Key
+ 	user_id INT AUTO_INCREMENT,                 -- User ID, AUTO_INCREMENT
+     username VARCHAR(50) NOT NULL UNIQUE,      -- User ,Unique
+     email VARCHAR(50) NOT NULL UNIQUE,         -- email address, Unique
+     password VARCHAR(15) NOT NULL ,            -- Password
+     PRIMARY KEY (user_id)                      -- Primary Key
 
  );
 
  CREATE TABLE Comments(
 
-     comment_id INT AUTO_INCREMENT,                       -- Yorum ID, otomatik artış
-     movie_id INT,                                        -- Film ID, (Foreign Key)
-     user_id INT,                                         -- Kullanıcı ID (Foreign key)
-     comment_date DATETIME DEFAULT CURRENT_TIMESTAMP,     -- Yorum Tarihi
-     comment_content TEXT NOT NULL,                       -- Yorum İçeriği
+     comment_id INT AUTO_INCREMENT,                       -- Comment ID, AUTO_INCREMENT
+     movie_id INT,                                        -- Movie ID, (Foreign Key)
+     user_id INT,                                         -- Users ID (Foreign key)
+     comment_date DATETIME DEFAULT CURRENT_TIMESTAMP,     -- Comment Date
+     comment_content TEXT NOT NULL,                       -- Comment Content
      PRIMARY KEY(comment_id)                              -- Primary Key
  );

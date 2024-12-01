@@ -1,6 +1,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-# Project Title: "Online Movie Archive System"
+# "Online Movie Archive System"
 
 ## Project Description:
 It is a project to create an “Online Movie Archive System” database for a community of movie lovers. This system should enable the storage and management of information about movies and enable users to view information about movies.
